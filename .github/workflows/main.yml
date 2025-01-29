@@ -32,9 +32,9 @@ jobs:
     uses: appleboy/ssh-action@v0.1.10
     with:
      host: 54.83.184.221
-     username: root 
-     password: root 
-     port: 22 
+     username: 'root'
+     password: 'root'
+     port: 22
      script: |
       git clone https://github.com/Rapunzel67/Vodafone-DevOps-CapstoneProject.git
       cd Vodafone-DevOps-CapstoneProject
