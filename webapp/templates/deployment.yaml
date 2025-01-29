@@ -13,6 +13,6 @@ spec:
    labels:
     app: capstone
   spec:
-  containers:
-   name: c1
-   image: rapunzel67/capstoneimage
+   containers:
+    - name: c1
+      image: rapunzel67/capstoneimage
